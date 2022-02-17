@@ -1,0 +1,74 @@
+{
+  "data": {
+    "layout-restorer:data": {
+      "main": {
+        "dock": {
+          "type": "split-area",
+          "orientation": "horizontal",
+          "sizes": [
+            0.5,
+            0.5
+          ],
+          "children": [
+            {
+              "type": "tab-area",
+              "currentIndex": 0,
+              "widgets": [
+                "markdownviewer-widget:docker/step1.md"
+              ]
+            },
+            {
+              "type": "tab-area",
+              "currentIndex": 0,
+              "widgets": [
+                "terminal:1"
+              ]
+            }
+          ]
+        },
+        "current": "terminal:1"
+      },
+      "down": {
+        "size": 0,
+        "widgets": []
+      },
+      "left": {
+        "collapsed": true,
+        "widgets": [
+          "filebrowser",
+          "running-sessions",
+          "@jupyterlab/toc:plugin",
+          "extensionmanager.main-view"
+        ]
+      },
+      "right": {
+        "collapsed": true,
+        "widgets": [
+          "jp-property-inspector",
+          "debugger-sidebar"
+        ]
+      },
+      "relativeSizes": [
+        0,
+        1,
+        0
+      ]
+    },
+    "markdownviewer-widget:docker/step1.md": {
+      "data": {
+        "path": "docker/step1.md",
+        "factory": "Markdown Preview"
+      }
+    },
+    "terminal:1": {
+      "data": {
+        "name": "1"
+      }
+    }
+  },
+  "metadata": {
+    "id": "docker",
+    "last_modified": "2022-02-16T16:05:13.018474+00:00",
+    "created": "2022-02-16T16:05:13.018474+00:00"
+  }
+}

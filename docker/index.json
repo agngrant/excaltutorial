@@ -1,0 +1,43 @@
+{
+  "title": "Compiling BOUT++ in Docker",
+  "description": "Testing BOUT++ Compilation in Docker",
+  "difficulty": "Beginner",
+  "time": "60",
+  "details": {
+    "steps": [
+      {
+        "title": "Creating a Dockerfile",
+        "text": "step1.md"
+      },
+      {
+        "title": "Building a Docker Image",
+        "text": "step2.md"
+      },
+      {
+        "title": "Running the Image",
+        "text": "step3.md"
+      },
+      {
+        "title": "Compiling BOUT++",
+        "text": "step4.md"
+      },
+      {
+        "title": "Running Examples",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004",
+    "port": "3000"
+  }
+}
