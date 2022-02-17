@@ -10,6 +10,7 @@ ADD archer2 $HOME/archer2
 ADD cirrus $HOME/cirrus
 ADD index.md $HOME/index.md
 ADD jupyterinstall.jupyterlab-workspace $HOME/jupyterinstall.jupyterlab-workspace
+RUN pip install nbgitpuller
 USER root
 #COPY excalibur.jupyterlab-workspace $HOME/.jupyter/lab/workspaces/excalibur-884c.jupyterlab-workspace
 # RUN apt-get update
