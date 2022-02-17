@@ -14,7 +14,7 @@
               "type": "tab-area",
               "currentIndex": 0,
               "widgets": [
-                "markdownviewer-widget:jupyterlab/intro.md"
+                "markdownviewer-widget:bout-tutorial/jupyterlab/intro.md"
               ]
             },
             {
@@ -26,7 +26,7 @@
             }
           ]
         },
-        "current": "markdownviewer-widget:jupyterlab/intro.md"
+        "current": "markdownviewer-widget:bout-tutorial/jupyterlab/intro.md"
       },
       "down": {
         "size": 0,
@@ -62,9 +62,9 @@
         "name": "1"
       }
     },
-    "markdownviewer-widget:jupyterlab/intro.md": {
+    "markdownviewer-widget:bout-tutorial/jupyterlab/intro.md": {
       "data": {
-        "path": "jupyterlab/intro.md",
+        "path": "bout-tutorial/jupyterlab/intro.md",
         "factory": "Markdown Preview"
       }
     }

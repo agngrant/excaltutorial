@@ -10,7 +10,6 @@ ADD archer2 $HOME/archer2
 ADD cirrus $HOME/cirrus
 ADD index.md $HOME/index.md
 ADD jupyterinstall.jupyterlab-workspace $HOME/jupyterinstall.jupyterlab-workspace
-RUN pip install nbgitpuller
 USER root
 #COPY excalibur.jupyterlab-workspace $HOME/.jupyter/lab/workspaces/excalibur-884c.jupyterlab-workspace
 # RUN apt-get update
@@ -21,6 +20,7 @@ USER root
 # RUN apt-get -y install libfftw3-dev libnetcdf-dev libnetcdf-cxx-legacy-dev netcdf-bin
 # RUN apt-get -y install liblapack-dev
 # RUN apt-get -y install cmake
+RUN pip install nbgitpuller
 RUN sudo chown -R $NB_UID:$NB_GID /home/$NB_USER/
 RUN usermod -aG sudo $NB_USER
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
