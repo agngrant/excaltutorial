@@ -4,12 +4,12 @@ FROM jupyter/minimal-notebook:latest
 # Inspect the Dockerfile at:
 # https://github.com/jupyter/docker-stacks/tree/HEAD/minimal-notebook/Dockerfile
 
-ADD jupyterlab $HOME/jupyterlab
-ADD docker $HOME/docker
-ADD archer2 $HOME/archer2
-ADD cirrus $HOME/cirrus
-ADD index.md $HOME/index.md
-ADD jupyterinstall.jupyterlab-workspace $HOME/jupyterinstall.jupyterlab-workspace
+ADD jupyterlab $HOME/bout-tutorial/jupyterlab
+ADD docker $HOME/bout-tutorial/docker
+ADD archer2 $HOME/bout-tutorial/archer2
+ADD cirrus $HOME/bout-tutorial/cirrus
+ADD index.md $HOME/bout-tutorial/index.md
+ADD jupyterinstall.jupyterlab-workspace $HOME/bout-tutorial/jupyterinstall.jupyterlab-workspace
 USER root
 #COPY excalibur.jupyterlab-workspace $HOME/.jupyter/lab/workspaces/excalibur-884c.jupyterlab-workspace
 # RUN apt-get update
